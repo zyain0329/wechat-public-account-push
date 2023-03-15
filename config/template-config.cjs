@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '宝子, 早上好',
     desc: `
       **{{date.DATA}}**
       
@@ -20,7 +20,11 @@ const TEMPLATE_CONFIG = [
       
       风级: {{wind_scale.DATA}}
       
+      PM2.5:{{pm25.DATA}}
+      
+      空气质量：{{aqi.DATA}}
       {{comprehensive_horoscope.DATA}}
+      {{wealth_horoscope.DATA}}
       
       ---
       
@@ -29,11 +33,11 @@ const TEMPLATE_CONFIG = [
       {{birthday_message.DATA}}
       
       ---
-      
-      {{moment_copyrighting.DATA}}
-      
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
-    `
+ 
+    {{note_en.DATA}}	
+    {{note_ch.DATA}}
+    {{earthy_love_words.DATA}}	
+    {{poison_chicken_soup.DATA}}	
   },
   {
     id: '0002',
